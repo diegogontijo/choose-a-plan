@@ -9,35 +9,40 @@
 <body>
     <form>
       <fieldset>
-        <!-- <div class="titulo-standard"> -->
         <legend class="titulo">Choose a trial plan</legend>
         <div class="radio-wrapper">
-          <input type="radio" name="plan" id="standard">
-          <label for="standard">Standard</label>
+          <div class="bolinha">
+            <input type="radio" name="plan" id="standard">
+            <label class="nominho" for="standard">Standard</label>
+          </div>
           <p>
               5 TB of space with easy-to-use team management and collaboration tools.
           </p>
 
         </div>
-        <!-- </div>  -->
 
         <div class="radio-wrapper">
-          <input type="radio" name="plan" id="advanced">
-          <label for="advanced">Advanced</label>
-          
+          <div class="bolinha">
+            <input type="radio" name="plan" id="advanced">
+            <label class="nominho" for="advanced">Advanced</label>
+          </div>
           <p>
             As much space as your team needs with sophisticated  admin, audit, security and integration capabilities. 
           </p>
         </div>
 
         <div class="checkbox-wrapper">
-          <input type="checkbox" name="termos" id="termos">
-          <label for="termos">I agree with <a href=""> terms and conditions.</a></label>
+          <div class="checkzinho">
+            <input type="checkbox" name="termos" id="termos">
+            <label for="termos">I agree with <a href=""> terms and conditions.</a></label>
+          </div>
         </div>
         <div class="checkbox-wrapper">
-          <input type="checkbox" name="mailing" id="mailing">
-          <label for="mailing">I'd like to receive direct marketing email updates.</label>
-        </div> 
+          <div class="checkzinho">
+            <input type="checkbox" name="mailing" id="mailing">
+            <label for="mailing">I'd like to receive direct marketing email updates.</label>
+          </div>
+        </div>
         <button class="botao">Start Free Trial</button>
       </fieldset>
     </form>
