@@ -49,8 +49,58 @@ fieldset {
   padding: 1rem;
 }
 
+.radio-wrapper [type="radio"]{
+  appearance: none;
+  border: 1px solid #BEC2C3;
+  padding: 0.7rem;
+  border-radius: 50%;
+  background-color: white;
+  height: 1.4rem;
+  width: 1.4rem;
+  
+}
+
+.radio-wrapper [type="radio"]:checked {
+  background-image: radial-gradient(white 30%, black 35%);
+}
+.bolinha {
+  display: flex;
+  gap: 5px;
+}
+
+.radio-wrapper p {
+  margin-top: 0.6rem;
+  padding-left: 2rem;
+}
+
 .checkbox-wrapper {
   padding: 0.5rem;
+}
+
+.checkbox-wrapper label {
+  font-size: 1rem;
+}
+
+.checkbox-wrapper [type="checkbox"] {
+  appearance: none;
+  width: 1.4rem;
+  height: 1.4rem;
+  border: 2px solid #BEC2C3;
+  border-radius: 18%;
+  position: relative;
+}
+
+.checkzinho {
+  display: flex;
+  gap: .5rem;
+}
+.checkbox-wrapper [type="checkbox"]:checked::before {
+  content: "✔";
+  font-size: 1.2rem;
+  position: absolute;
+  top: -0.2rem;
+  
+
 }
 .botao {
   margin-top: 1rem;
@@ -63,4 +113,9 @@ fieldset {
   color: white;
   }
 
-  
+.nominho {
+  font-family: var(--fonte2);
+  font-weight: 600;
+  font-size: 1.3rem;
+
+}
