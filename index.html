@@ -7,40 +7,45 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form>
-      <fieldset>
-        <!-- <div class="titulo-standard"> -->
-        <legend class="titulo">Choose a trial plan</legend>
-        <div class="radio-wrapper">
+  <form>
+    <fieldset>
+      <legend class="titulo">Choose a trial plan</legend>
+      <div class="radio-wrapper">
+        <div class="bolinha">
           <input type="radio" name="plan" id="standard">
-          <label for="standard">Standard</label>
-          <p>
-              5 TB of space with easy-to-use team management and collaboration tools.
-          </p>
-
+          <label class="nominho" for="standard">Standard</label>
         </div>
-        <!-- </div>  -->
+        <p>
+            5 TB of space with easy-to-use team management and collaboration tools.
+        </p>
 
-        <div class="radio-wrapper">
+      </div>
+
+      <div class="radio-wrapper">
+        <div class="bolinha">
           <input type="radio" name="plan" id="advanced">
-          <label for="advanced">Advanced</label>
-          
-          <p>
-            As much space as your team needs with sophisticated  admin, audit, security and integration capabilities. 
-          </p>
+          <label class="nominho" for="advanced">Advanced</label>
         </div>
+        <p>
+          As much space as your team needs with sophisticated  admin, audit, security and integration capabilities. 
+        </p>
+      </div>
 
-        <div class="checkbox-wrapper">
+      <div class="checkbox-wrapper">
+        <div class="checkzinho">
           <input type="checkbox" name="termos" id="termos">
           <label for="termos">I agree with <a href=""> terms and conditions.</a></label>
         </div>
-        <div class="checkbox-wrapper">
+      </div>
+      <div class="checkbox-wrapper">
+        <div class="checkzinho">
           <input type="checkbox" name="mailing" id="mailing">
           <label for="mailing">I'd like to receive direct marketing email updates.</label>
-        </div> 
-        <button class="botao">Start Free Trial</button>
-      </fieldset>
-    </form>
+        </div>
+      </div>
+      <button class="botao">Start Free Trial</button>
+    </fieldset>
+  </form>
 
 
 </body>
